@@ -99,8 +99,8 @@ header ul {
   text-align: center;
   padding: 10px;
   margin: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px
 }
 
 header li {
@@ -109,19 +109,19 @@ header li {
 
 header a {
   display: block;
-  color: #3498db;
+  color: #368cbf;
   padding: 10px
 }
 
 header a:hover {
-  color: #217dbb;
+  color: #000;
   text-decoration: none;
-  background: #eee;
+  background: #f1f0ee;
   border-radius: 4px
 }
 
 header a:focus {
-  color: #3498db;
+  color: #368cbf;
   text-decoration: none
 }
 
@@ -139,7 +139,7 @@ header.active {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #3498db;
+  color: #368cbf;
   font-size: 1.5em;
   z-index: 10;
   padding: 0 7px;
@@ -156,7 +156,7 @@ header.active {
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
-  color: #3498db
+  color: #368cbf
 }
 
 #mobile-menu-close span {
@@ -266,11 +266,11 @@ footer {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #3498db
+  background: #368cbf
 }
 
 .background-alt {
-  background: #f2f2f5
+  background: #f1f0ee
 }
 
 #lead {
@@ -301,7 +301,7 @@ footer {
 }
 
 #lead-content h2 {
-  color: #a0cfee;
+  color: #368cbf;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px
@@ -315,7 +315,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(33, 125, 187, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   z-index: 1
 }
 
@@ -337,7 +337,7 @@ footer {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #a0cfee;
+  border: 3px solid #368cbf;
   text-align: center
 }
 
@@ -418,7 +418,7 @@ footer {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #3498db;
+  background: #368cbf;
   z-index: 0
 }
 
@@ -427,9 +427,9 @@ footer {
   content: '';
   width: 3px;
   height: 40px;
-  background: #3498db;
-  background: -webkit-linear-gradient(top, #3498db, rgba(52, 152, 219, 0));
-  background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+  background: #368cbf;
+  background: -webkit-linear-gradient(top, #368cbf, rgba(52, 152, 219, 0));
+  background: linear-gradient(to bottom, #368cbf, rgba(52, 152, 219, 0));
   top: 100%;
   left: 303px
 }
@@ -488,7 +488,7 @@ footer {
   color: #fff;
   width: 50px;
   height: 50px;
-  background: #3498db;
+  background: #368cbf;
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -636,7 +636,7 @@ footer {
 
 #contact {
   padding: 50px 15px;
-  background: #3498db;
+  background: #368cbf;
   text-align: center
 }
 
@@ -706,7 +706,7 @@ footer {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #3498db;
+  color: #368cbf;
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -webkit-transition: .5s ease all;
