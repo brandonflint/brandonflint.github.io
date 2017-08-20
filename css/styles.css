@@ -1,10 +1,7 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.1.1
+    Title: Dev Portfolio
     Last Change: 03/19/17
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
+    Author: Brandon Flint
 
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
@@ -564,7 +561,8 @@ footer {
 #projects {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
-  text-align: center
+  text-align: center;
+  box-sizing: border-box
 }
 
 #projects h2 {
@@ -605,6 +603,10 @@ footer {
   color: #74808a;
   margin: 0 0 15px 0;
   font-size: 0.9em
+}
+
+#more-projects{
+  display:none
 }
 
 #skills {

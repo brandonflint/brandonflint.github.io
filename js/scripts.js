@@ -1,11 +1,8 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.1.1
+    Title: Dev Portfolio
     Last Change: 03/19/17
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-    
+    Author: Brandon Flint
+
     Description: This file contains all the scripts associated with the single-page
     portfolio website.
 */
@@ -80,6 +77,14 @@
     // Close mobile menu
     $('#mobile-menu-close').click(function() {
         $('header, body').removeClass('active');
+    });
+
+    // Load additional projects
+    $('#view-more-projects').click(function(e){
+        e.preventDefault();
+        $(this).fadeOut(300, function() {
+            $('#more-projects').fadeIn(300);
+        });
     });
 
 })(jQuery);
