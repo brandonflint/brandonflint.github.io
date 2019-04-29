@@ -277,6 +277,15 @@ footer {
   padding: 250px 15px
 }
 
+#profile {
+  border-radius: 50%;
+  width: 280px;
+  height: 260px;
+}
+#aboutMe {
+  padding: 150px 15px
+}
+
 #lead-content {
   position: relative;
   z-index: 10;
@@ -285,7 +294,7 @@ footer {
 
 #lead-content h1,
 #lead-content h2 {
-  margin: 0
+  margin: 30px
 }
 
 #lead-content h1 {
@@ -382,6 +391,8 @@ footer {
 }
 
 #about h2 {
+  padding: 0px 75px;
+  text-align: center;
   color: #374054
 }
 
