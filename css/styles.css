@@ -279,7 +279,7 @@ footer {
 
 #profile {
   border-radius: 50%;
-  width: 280px;
+  width: 275px;
   height: 260px;
 }
 #aboutMe {
@@ -583,7 +583,7 @@ footer {
 
 .project {
   position: relative;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto 30px auto;
   overflow: hidden;
   background: #fff;
@@ -599,7 +599,7 @@ footer {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  margin-left: 300px;
+  margin-left: 425px;
   padding: 15px
 }
 
